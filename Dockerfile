@@ -28,4 +28,4 @@ COPY ./fastapi-google-login /fastapi-google-login
 
 EXPOSE 8080
 
-CMD ["uvicorn", "fastapi-google-login.app:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8080"]
