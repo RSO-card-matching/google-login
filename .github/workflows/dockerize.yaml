@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Get Time
+    - name: Get Timeg
       id: time
       uses: nanzm/get-time-action@v1.0
       with:
@@ -28,4 +28,4 @@ jobs:
       with:
         file: ./Dockerfile
         push: true
-        tags: cardmatching/card-data:${{ steps.time.outputs.time }}
+        tags: cardmatching/google-login:${{ steps.time.outputs.time }}
