@@ -24,7 +24,7 @@ RUN pip install httpx
 
 # # ENV PATH=/root/.local:$PATH
 
-COPY ./fastapi-google-login /fastapi-google-login
+COPY ./app /app
 
 EXPOSE 8080
 
